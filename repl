@@ -1,0 +1,10 @@
+#!/usr/bin/env julia
+
+using Interpreter
+using Repl
+
+if length(ARGS) > 1
+    print(interpret_file(ARGS[2]))
+else
+    repl()
+end
