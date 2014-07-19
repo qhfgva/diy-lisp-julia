@@ -1,5 +1,5 @@
 
-(A julia version of https://github.com/kvalle/diy-lisp. All documentation is copied from the origial repoistory.)
+(A julia version of https://github.com/kvalle/diy-lisp. All documentation is copied from the original repository.)
 
 ## DIY Lisp 
 
