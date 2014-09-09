@@ -4,6 +4,7 @@ module Interpreter
 #using BallOfMud
 using Parser
 using Evaluator
+using Types
 
 export interpret, interpret_file
 
