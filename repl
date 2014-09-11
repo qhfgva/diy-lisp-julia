@@ -3,8 +3,8 @@
 using Interpreter
 using Repl
 
-if length(ARGS) > 1
-    print(interpret_file(ARGS[2]))
+if length(ARGS) > 0
+    print(interpret_file(ARGS[1]))
 else
     repl()
 end
